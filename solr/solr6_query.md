@@ -87,6 +87,11 @@ We added the commitWithin=5000 parameter to indicate that we would like our upda
 	        "author_s":"Lloyd Alexander"}]
 	  }}
 
+Here is the search result when use solr web page
+![](https://github.com/blogw/study/raw/master/solr/img/webuiquery.png)
+
+###Sorting and Paging Search Results###
+![](https://github.com/blogw/study/raw/master/solr/img/sortpaging.png)
 
 ###Dynamic Fields###
 The “id” field is already pre-defined in every schema. Lucene and Solr need to know the types of fields so that they can be indexed in the correct way. There are a number of options for defining new fields:
@@ -96,6 +101,7 @@ The “id” field is already pre-defined in every schema. Lucene and Solr need 
 - Use dynamicFields, a form of convention-over-configuration that maps field names to field types based on patterns in the field name. For example, every field ending in “_i” is taken to be an integer.
 - Use “schemaless” mode, where field types are auto-detected (guessed) based on the first value seen for that field
 
+	![](https://raw.githubusercontent.com/blogw/study/master/solr/img/dynamicfield.png)
 
 ###reference###
 [solr-tutorial](http://yonik.com/solr-tutorial/)

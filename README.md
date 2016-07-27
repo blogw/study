@@ -1,5 +1,7 @@
 # Git Tutorial
 
+![](https://github.com/blogw/study/raw/master/img/git.png)
+
 1. login into github and create new repository
 2. goto windows d:\workspace and click mouse right key
 3. select ***Git Bash Here***
